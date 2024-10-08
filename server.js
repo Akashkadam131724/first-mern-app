@@ -12,7 +12,7 @@ app.use("/api/auth", router);
 app.use(errorMiddleware);
 
 app.get("/", (req, res) => {
-  res.send("<h1>Home routes</h1>");
+  res.send("<h1>Home routes Akash</h1>");
 });
 
 connectDb().then(() => {
